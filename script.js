@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.alert[data-auto]').forEach(a=>setTimeout(()=>a.remove(),4000));});

@@ -1,0 +1,12 @@
+:root{--navy:#071b34;--blue:#0b4f8a;--green:#20a45b;--gold:#ffc107}
+body{font-family:Inter,Arial,sans-serif;background:#f6f8fb;color:#172033}
+.navbar{background:linear-gradient(90deg,var(--navy),#0b4f8a)}
+.navbar-brand{font-size:1.3rem}.hero{background:linear-gradient(120deg,#06182e 0%,#0b4f8a 55%,#137a52 100%);color:#fff;padding:90px 0}
+.hero h1{font-size:clamp(2.2rem,5vw,4.5rem);font-weight:800}.hero p{font-size:1.15rem;color:#dcecff}
+.section-title{font-weight:800}.category-card,.product-card,.feature-card{background:#fff;border:0;border-radius:18px;box-shadow:0 8px 28px rgba(10,35,65,.08);overflow:hidden;transition:.25s}
+.category-card:hover,.product-card:hover{transform:translateY(-5px);box-shadow:0 14px 34px rgba(10,35,65,.14)}
+.category-card img,.product-card img{height:210px;object-fit:cover}.product-card .price{font-weight:800;color:var(--blue)}
+.badge-soft{background:#e8f5ee;color:#137a52}.footer{background:var(--navy);color:#d7e3f0}.footer a{display:block;color:#d7e3f0;text-decoration:none;margin:.35rem 0}.footer a:hover{color:#fff}
+.page-head{background:#eaf3fb;padding:55px 0}.btn-success{background:#168b4d;border-color:#168b4d}
+.spec-table td:first-child{font-weight:700;width:40%}.admin-sidebar{background:var(--navy);min-height:100vh}.admin-sidebar a{color:#dce7f2;text-decoration:none;display:block;padding:10px 14px;border-radius:8px}.admin-sidebar a:hover{background:#123a61}
+.stat{border:0;border-radius:16px}.thumb{height:70px;width:90px;object-fit:cover;border-radius:8px}.whatsapp{position:fixed;right:22px;bottom:22px;z-index:1000}
